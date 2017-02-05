@@ -5,7 +5,7 @@ echo "What is the overall avg Signal to Background ratio?"
 read s_b
 echo "What is the systematic error (b/w 0 to 1)?"
 read sys
-echo "How many energy bins are considered?"
+echo "How many energy bins are considered? (10 or greater recommended)"
 read bins
 echo "How many kgs of Germanium detector are you using?"
 read m
