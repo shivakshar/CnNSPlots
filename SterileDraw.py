@@ -70,7 +70,7 @@ def update(val):
 sfreq.on_changed(update)
 samp.on_changed(update)
 
-plt.title("Runtime  of "+str(T)+" days")
+plt.title("Runtime  of "+str(T)+" days\nBlue: No Sterile\nRed: Yes Sterile")
 plt.show()
 
 
